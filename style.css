@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Khand', sans-serif;
+    font-size: 4;
+}
+body {
+    /* Evitar desplazamiento horizontal */
+    overflow-x: hidden;
+}
+
+header {
+    background: #006D77;
+    padding: 10px 0; /* Espaciado interior en la parte superior e inferior del header */
+    color: #fff; /* Color del texto en el header */
+    text-align: center; /* Centra horizontalmente el contenido */
+    justify-content: space-between;
+    position: relative;
+    height: 9.375rem /* Altura del header aumentada */
+}
+
+nav {
+    margin-top: 3rem;
+    justify-content: space-between; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+}
+
+li {
+    display: inline;
+    margin: 0 10px; /* Espacio entre los elementos del menú */
+}
+
+.logo-item {
+    display: inline-block; /* Para que el logotipo esté en línea con los elementos del menú */
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño del logotipo según tus necesidades */
+    height: auto;
+}
+
+i {
+    color: white;
+    z-index: 2;
+}
+
+.icons-container {
+    float: right;
+}
+
+.icons{
+    font-size: 1.5rem;
+}
+
+.first-section {
+    width: 100%;
+}
+
+.container {
+    background-color: #EDF6F9;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.video-container {
+    width: 100%;
+    
+}
+
+footer {
+    background: #006D77;
+}
