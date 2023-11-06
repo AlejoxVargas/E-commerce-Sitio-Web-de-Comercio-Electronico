@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khand', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 92px;
+    background: #006D77;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    color: white;
+}
+
+.logo {
+    width: 40px;
+    height: 38px;
+    border-radius: 9999px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 138px 28px 0 28px;
+}
+
+.left-column, .right-column {
+    width: 50%;
+}
+
+.product {
+    width: 100%;
+    background: #83C5BE;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 16px 0;
+}
+
+.product .image img {
+    width: 100%;
+    height: auto;
+}
+
+.product .details .name {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.product .details .price {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 387px;
+    background: #006D77;
+    padding: 0 28px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe input {
+    padding: 10px 13px;
+    background: white;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+    border: 1px #DAC4C4 solid;
+    font-size: 22px;
+    font-weight: 400;
+    color: #C5BEBE;
+}
+
+.subscribe button {
+    background: black;
+    padding: 11px 42px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
