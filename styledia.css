@@ -1,0 +1,160 @@
+header {
+    background: #006D77;
+    padding: 10px 0;
+    /* Espaciado interior en la parte superior e inferior del header */
+    color: #fff;
+    /* Color del texto en el header */
+    text-align: center;
+    /* Centra horizontalmente el contenido */
+    justify-content: space-between;
+    position: relative;
+    height: 7rem
+        /* Altura del header aumentada */
+}
+.rectangle-1 {
+    position: absolute;
+    width: 90%;
+    height: 7rem;
+    top: 7rem;
+    right: 0;
+   /* background-color: #ffddd2; asi desaparece en móvil*/
+    z-index: -100;
+  }
+
+
+.h1-day {
+    font-family: "Khand-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+  
+
+.section-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 0 1rem;
+  
+  }
+  
+  
+
+.align-figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-day {
+    width: 15.75rem;
+    height: 18.25rem;
+  }
+
+
+.text-day{
+
+        font-family: "Khand-Regular", Helvetica;
+        color: #000000;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+   
+    
+}
+
+.info-a {
+    font-family: "Khand-Regular", Helvetica;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .button-add {
+    background-color: #006d77;
+    color: #ffffff;
+    width: 18.375rem;
+    height: 3.063rem;
+    text-align: center;
+    font-family: "Khand-Regular", Helvetica;
+    font-size: 2rem;
+    border-radius: 1.563rem;
+  }
+  
+
+.rectangle-2 {
+    position: absolute;
+    width: 90%;
+    height: 21rem;
+    bottom: -89rem; /* hay que corregir esto*/
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: #ffddd2; asi desaparece en móvil*/
+    z-index: -100;
+  }
+
+  
+footer {
+    background: #006D77;
+    display: flex;
+    height: 7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .rectangle-1 {
+      width: 50%;
+      height: 17rem;
+      top: 12rem;
+      background-color: #ffddd2;
+    }
+  
+    .h1-day {
+      font-size: 6rem;
+      line-height: 1.5;
+    }
+   
+    .section-a {
+      margin: 4rem 0;
+      padding: 0 4rem;
+    }
+
+    .image-day {
+        width: 18.75rem;
+        height: 21.25rem;
+    }
+
+    .text-day{
+
+        font-family: "Khand-Regular", Helvetica;
+        color: #000000;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: normal;
+    
+    }
+
+    .info-a {
+        font-size: 22px;
+    }
+
+    .button-add {
+      width: 18.375rem;
+      height: 3.063rem;
+      font-size: 2rem;
+      border-radius: 1.563rem;
+    }
+  
+    .rectangle-2 {
+        width: 50%;
+        height: 31rem;
+        bottom: -74rem;
+        background-color: #ffddd2;
+    }
+  }
