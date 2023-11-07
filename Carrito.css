@@ -1,0 +1,37 @@
+/* Configuraciones de estandares */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Khand-Medium", Helvetica;
+}
+
+header .navBar {
+  background-color: #006d77;
+}
+
+/* Estilos de Nav Bar para */
+
+.img-product-1{
+    width: 6rem;
+    height: 11.6rem;
+}
+
+.img-product-2{
+    width: 11.7rem;
+    height: 9.rem;
+}
+
+main{
+    background-color: rgb(218, 146, 146);
+}
+
+
+
+/* Estilos Seccion 1 */
+.section-1{
+    background-color: rgb(166, 166, 222);
+}
