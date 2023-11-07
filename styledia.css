@@ -1,16 +1,93 @@
-header {
-    background: #006D77;
-    padding: 10px 0;
-    /* Espaciado interior en la parte superior e inferior del header */
-    color: #fff;
-    /* Color del texto en el header */
-    text-align: center;
-    /* Centra horizontalmente el contenido */
-    justify-content: space-between;
-    position: relative;
-    height: 7rem
-        /* Altura del header aumentada */
+* {
+  font-family: 'Khand', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Khand', sans-serif;
+    font-size: 4;
+
 }
+
+header {
+  background: #006D77;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  /* Centra horizontalmente el contenido */
+  justify-content: space-between;
+  position: relative;
+  height: 7rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* Espaciado interno entre elementos */
+
+}
+
+nav a {
+  text-decoration: none;
+  /* Elimina el subrayado de los enlaces */
+  color: #fff;
+  /* Color del texto de los enlaces */
+  font-size: 1.7rem;
+  /* Tamaño fuente */
+  font-weight: bolder;
+  /*Grosor de la fuente (Negrita, etc)*/
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  /* Espacio entre elementos de la lista */
+  flex: 1;
+  /* Toma la parte central del espacio disponible */
+  align-items: center;
+  /* Alinea verticalmente los elementos de texto con el contenido del primer li (imagen) */
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.title-container {
+  flex: 1;
+  /* Toma la primera parte del espacio disponible */
+}
+
+h1 {
+  font-size: 3.2rem;
+
+}
+
+.logo {
+  width: 6rem;
+  /* Ajusta el tamaño del logotipo según tus necesidades */
+  height: auto;
+  color: white;
+  font-size: 5rem;
+}
+
+i {
+  color: white;
+  z-index: 2;
+}
+
+.icons-container {
+  flex: 1;
+  /* Toma la tercera parte del espacio disponible */
+  text-align: center;
+  /* Alinea los íconos a la derecha */
+}
+
+.icons {
+  font-size: 1.6rem;
+  margin-left: 30px;
+}
+
+
 .rectangle-1 {
     position: absolute;
     width: 90%;
@@ -36,7 +113,7 @@ header {
 .section-a {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 2rem 0;
     padding: 0 1rem;
@@ -106,12 +183,65 @@ footer {
     display: flex;
     height: 7rem;
 }
+/*------------------------FOOTER---------------------*/
+footer {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: #006D77;
+}
+
+.left-div {
+  width: 40%;
+  font-size: large;
+  color: #fff;
+  padding: 50px;
+}
+
+.right-div {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size:x-large;
+  font-weight: bolder;
+  margin: 50px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 80%;
+  height: 37px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.social-media-icons {
+  font-size: 3em;
+  margin-left: 60%;
+  margin-bottom: 30px;
+}
 
 @media screen and (min-width: 768px) {
     .rectangle-1 {
       width: 50%;
       height: 17rem;
-      top: 12rem;
+      top: 10rem;
       background-color: #ffddd2;
     }
   
