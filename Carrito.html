@@ -16,7 +16,9 @@
     <header>
         <nav>
             <div class="title-container">
-                <a href="index.html"><h1>LotoCare</h1></a>
+                <a href="index.html">
+                    <h1>LotoCare</h1>
+                </a>
             </div>
             <ul>
                 <li><img src="./media/logoG.png" alt="Logo de Lotus Care" class="logo"></li>
@@ -29,13 +31,16 @@
                 <i class="fas fa-user icons"></i>
                 <i class="fa-solid fa-cart-shopping icons"></i>
             </div>
+            <div>
+                <i class="fa-solid fa-bars show"></i>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="section-carrito">
+        <div class="section-carrito">
             <p>Carrito</p>
             <i class="fa-solid fa-cart-shopping" style="color: #006d77;"></i>
-        </section>
+        </div>
         <section class="section-productos">
             <article class="article-productos">
                 <aside class="limpiador-dia">
@@ -47,7 +52,7 @@
                                 id="span-precio-limpiador-dia">7.95€</span></p>
                         <p id="texto-p-limpiador-dia">Nuestro limpiador facial para el día se caracteriza por su
                             suavidad con la piel, sin
-                            deslipidificar en exceso la piel. su combinación ideal de  aceites esenciales y extractos de
+                            deslipidificar en exceso la piel. su combinación ideal de aceites esenciales y extractos de
                             plantas...</p>
                         <div class="btn-cantidad-producto-dia">
                             <p>&lt; 1 &gt;</p>
@@ -103,7 +108,7 @@
                 <form action="" class="form-payment-method">
                     <div>
                         <input type="radio" id="radio-btn1" name="grupo">
-                        <label for="">Pago con tarjeta</label>
+                        <label class="pago-con-tarjeta">Pago con tarjeta</label>
                         <figure>
                             <img src="./media/metodosPago.png" alt="" id="img-payment-methods">
                         </figure>
