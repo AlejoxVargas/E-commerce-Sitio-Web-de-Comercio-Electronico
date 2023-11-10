@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-header {
-    background: #006D77;
-    padding: 10px 0;
-    /* Espaciado interior en la parte superior e inferior del header */
-    color: #fff;
-    /* Color del texto en el header */
-    text-align: center;
-    /* Centra horizontalmente el contenido */
-    justify-content: space-between;
-    position: relative;
-    height: 7rem;
-        /* Altura del header aumentada */
-}
-
-=======
 * {
   font-family: 'Khand', sans-serif;
     padding: 0px;
@@ -53,11 +37,12 @@ nav a {
   /*Grosor de la fuente (Negrita, etc)*/
 }
 ul {
+  justify-content: center;
   list-style: none;
   display: flex;
   gap: 20px;
   /* Espacio entre elementos de la lista */
-  flex: 1;
+  flex: 6;
   /* Toma la parte central del espacio disponible */
   align-items: center;
   /* Alinea verticalmente los elementos de texto con el contenido del primer li (imagen) */
@@ -69,7 +54,7 @@ li {
 }
 
 .title-container {
-  flex: 1;
+  flex: 3;
   /* Toma la primera parte del espacio disponible */
 }
 
@@ -92,7 +77,7 @@ i {
 }
 
 .icons-container {
-  flex: 1;
+  flex: 3;
   /* Toma la tercera parte del espacio disponible */
   text-align: center;
   /* Alinea los íconos a la derecha */
@@ -103,8 +88,6 @@ i {
   margin-left: 30px;
 }
 
-
->>>>>>> b72bc393da59aaea2e8253ff4a7ca8f9ade28861
 .rectangle-1 {
     position: absolute;
     width: 90%;
