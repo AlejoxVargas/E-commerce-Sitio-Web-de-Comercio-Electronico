@@ -10,28 +10,27 @@ body {
     overflow-x: hidden;
 }
 
-/* HEADER */
-
 header {
-    background: #006d77;
+    background: #006D77;
     padding: 10px 0;
     color: #fff;
     text-align: center;
     /* Centra horizontalmente el contenido */
     justify-content: space-between;
     position: relative;
-    height: 8.2rem;
-  }
-  
-  nav {
+    height: 7rem
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     /* Espaciado interno entre elementos */
-  }
-  
-  nav a {
+
+}
+
+nav a {
     text-decoration: none;
     /* Elimina el subrayado de los enlaces */
     color: #fff;
@@ -40,65 +39,58 @@ header {
     /* Tamaño fuente */
     font-weight: bolder;
     /*Grosor de la fuente (Negrita, etc)*/
-  }
-  
-  ul {
-    justify-content: center;
+}
+
+ul {
     list-style: none;
     display: flex;
     gap: 20px;
     /* Espacio entre elementos de la lista */
-    flex: 6;
+    flex: 1;
     /* Toma la parte central del espacio disponible */
     align-items: center;
     /* Alinea verticalmente los elementos de texto con el contenido del primer li (imagen) */
-  }
-  
-  li {
+}
+
+li {
     margin: 0;
     padding: 0;
-  }
-  
-  .title-container {
-    flex: 3;
+}
+
+.title-container {
+    flex: 1;
     /* Toma la primera parte del espacio disponible */
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 3.2rem;
-  }
-  
-  .logo {
+
+}
+
+.logo {
     width: 6rem;
     /* Ajusta el tamaño del logotipo según tus necesidades */
     height: auto;
     color: white;
     font-size: 5rem;
-  }
-  
-  i {
+}
+
+i {
     color: white;
     z-index: 2;
-  }
-  
-  .icons-container {
-    flex: 3;
+}
+
+.icons-container {
+    flex: 1;
     /* Toma la tercera parte del espacio disponible */
     text-align: center;
     /* Alinea los íconos a la derecha */
-  }
-  
-  .show {
-    display: none !important;
-   
-  }
-  
-  .icons {
+}
+
+.icons {
     font-size: 1.6rem;
     margin-left: 30px;
-  }
-  
-  /*Cierre de Header*/
+}
 
 .container {
     background-color: #EDF6F9;
@@ -178,7 +170,6 @@ video.play-video {
     justify-content: space-between;
     /* Espacio vertical distribuido entre elementos */
     align-items: center;
-    padding-right: 13px;
 }
 
 .right-text-container.fullscreen {
@@ -281,6 +272,7 @@ video.play-video {
 
 .slide-container {
     width: 300px;
+    background-color: #E29578;
     box-shadow: 2px 2px 30 px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -289,7 +281,6 @@ video.play-video {
 
 .slide-img {
     height: 450px;
-    background-color: #E29578;
     position: relative;
 }
 
