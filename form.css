@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Khand', sans-serif;
+    font-size: 4;
+}
+
+header {
+    background: #006D77;
+    padding: 10px 0px;
+    /* Espaciado interior en la parte superior e inferior del header */
+    color: #fff;
+    /* Color del texto en el header */
+    text-align: center;
+    /* Centra horizontalmente el contenido */
+    justify-content: space-between;
+    position: relative;
+    height: 7rem;
+    /* Altura del header aumentada */
+
+}
+
+
+
+body {
+    overflow-x: hidden;
+    /*color: green;*/
+    font-family: 'Khand', sans-serif;
+    background-color: #e5e5f7;
+
+}
+
+
+
+.form-container {
+    padding: 4.5em 3em;
+    background-color: #ffffff62;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px #000;
+    border-color: solid blue;
+    font-family: 'Khand', sans-serif;
+    border: 1px solid rgb(14, 14, 160);
+    /*margin-top: 10px,*/
+    color: black;
+    margin-left: 30%;
+}
+
+.form-title {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    background: green;
+}
+
+
+
+.form-group {
+    text-align: center;
+    align-items: center;
+
+}
+
+.form-subgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-subgroup input {
+    width: 20rem;
+    height: 1.80rem;
+}
+
+
+.terminos {
+    margin-top: 20rem;
+    padding-left: 5px;
+   
+}
+.cuenta{
+    padding-left: 5px;
+}
+
+
+
+
+.form-submit {
+    padding: 11px 42px;
+    margin-left: 50%;
+    /* no ha cambiado nada tras meter esto*/
+    margin-top: 20%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+
+
+}
+
+.form-submit:hover {
+    background-color: #83c5be;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+p {
+    color: negro;
+}
+
+.form-paragraph {
+    color: negro;
+}
+
+.form-link {
+    font-weight: 400;
+    color: blue;
+}
+
+main {
+    background-image: url(img/imagenECommerceRegister.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    /*opacity: 0.9;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 8px), repeating-linear-gradient(#005b7855, #005b78);
+    ;*/
+    /* fondo con forma de gota de agua*/
+    display: flex;
+    min-height: 100vh;
+}
+
+
+footer {
+    background: #006D77;
+    display: flex;
+    color: white;
+    height: 13rem;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para pantallas con un ancho mínimo de 768px y un ancho máximo de 1024px */
+    /* Aquí puedes agregar los estilos que deseas aplicar en pantallas medianas */
+    footer{
+        background-color: red;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+    /* Aquí puedes agregar los estilos que deseas aplicar en pantallas más pequeñas */
+  }
+  
+ 
+ 

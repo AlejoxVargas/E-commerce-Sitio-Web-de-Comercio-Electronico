@@ -281,7 +281,6 @@ video.play-video {
 
 .slide-container {
     width: 300px;
-    background-color: #E29578;
     box-shadow: 2px 2px 30 px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -290,6 +289,7 @@ video.play-video {
 
 .slide-img {
     height: 450px;
+    background-color: #E29578;
     position: relative;
 }
 
