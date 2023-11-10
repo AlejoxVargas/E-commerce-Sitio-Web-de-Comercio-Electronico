@@ -20,3 +20,6 @@ Este repositorio sirve como un registro completo del proyecto y proporciona acce
 
 Prototipo en Figma:
 https://www.figma.com/file/wk1QjeIDZeqEO6HEbloBUd/Proyect-2?type=design&node-id=24%3A357&mode=design&t=kecD3cQriZEdUVcY-1
+
+Trello:
+https://trello.com/invite/b/sXs8fjfw/ATTI7167a31b9172742f6a91ae8a71b73823EFA37015/e-comerce-grupo-2
