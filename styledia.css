@@ -37,11 +37,12 @@ nav a {
   /*Grosor de la fuente (Negrita, etc)*/
 }
 ul {
+  justify-content: center;
   list-style: none;
   display: flex;
   gap: 20px;
   /* Espacio entre elementos de la lista */
-  flex: 1;
+  flex: 6;
   /* Toma la parte central del espacio disponible */
   align-items: center;
   /* Alinea verticalmente los elementos de texto con el contenido del primer li (imagen) */
@@ -53,7 +54,7 @@ li {
 }
 
 .title-container {
-  flex: 1;
+  flex: 3;
   /* Toma la primera parte del espacio disponible */
 }
 
@@ -76,7 +77,7 @@ i {
 }
 
 .icons-container {
-  flex: 1;
+  flex: 3;
   /* Toma la tercera parte del espacio disponible */
   text-align: center;
   /* Alinea los íconos a la derecha */
@@ -86,7 +87,6 @@ i {
   font-size: 1.6rem;
   margin-left: 30px;
 }
-
 
 .rectangle-1 {
     position: absolute;
@@ -117,7 +117,6 @@ i {
     align-items: center;
     margin: 2rem 0;
     padding: 0 1rem;
-  
   }
   
   
