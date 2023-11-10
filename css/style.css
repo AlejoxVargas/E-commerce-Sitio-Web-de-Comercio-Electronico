@@ -170,6 +170,7 @@ video.play-video {
     justify-content: space-between;
     /* Espacio vertical distribuido entre elementos */
     align-items: center;
+    padding-right: 13px;
 }
 
 .right-text-container.fullscreen {
