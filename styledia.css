@@ -6,24 +6,25 @@
     font-size: 4;
 
 }
+/* HEADER */
 
 header {
-  background: #006D77;
+  background: #006d77;
   padding: 10px 0;
   color: #fff;
   text-align: center;
   /* Centra horizontalmente el contenido */
   justify-content: space-between;
   position: relative;
-  height: 7rem;
+  height: 8.2rem;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   /* Espaciado interno entre elementos */
-
 }
 
 nav a {
@@ -36,6 +37,7 @@ nav a {
   font-weight: bolder;
   /*Grosor de la fuente (Negrita, etc)*/
 }
+
 ul {
   justify-content: center;
   list-style: none;
@@ -60,7 +62,6 @@ li {
 
 h1 {
   font-size: 3.2rem;
-
 }
 
 .logo {
@@ -83,19 +84,27 @@ i {
   /* Alinea los íconos a la derecha */
 }
 
+.show {
+  display: none !important;
+ 
+}
+
 .icons {
   font-size: 1.6rem;
   margin-left: 30px;
 }
 
+/*Cierre de Header*/
+/* Comienzo section*/
 .rectangle-1 {
     position: absolute;
-    width: 90%;
-    height: 7rem;
-    top: 7rem;
+    width: 50%;
+    height: 17rem;
+    top: 10rem;
     right: 0;
-   /* background-color: #ffddd2; asi desaparece en móvil*/
+    background-color: #ffddd2;
     z-index: -100;
+      
   }
 
 
@@ -103,10 +112,10 @@ i {
     font-family: "Khand-Medium", Helvetica;
     font-weight: 500;
     color: #000000;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
     letter-spacing: 0;
-    line-height: 1.2;
+    line-height: 1.5;
   }
   
 
@@ -115,8 +124,12 @@ i {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem 0;
-    padding: 0 1rem;
+    margin: 4rem 0;
+    padding: 0 4rem;
+  }
+  .section-b{
+    display: flex;
+    flex-direction: row;
   }
   
   
@@ -129,8 +142,8 @@ i {
 }
 
 .image-day {
-    width: 15.75rem;
-    height: 18.25rem;
+  width: 18.75rem;
+  height: 21.25rem;
   }
 
 
@@ -138,9 +151,10 @@ i {
 
         font-family: "Khand-Regular", Helvetica;
         color: #000000;
-        font-size: 18px;
+        font-size: 24px;
         letter-spacing: 0;
         line-height: normal;
+        width: 50%;
    
     
 }
@@ -148,7 +162,7 @@ i {
 .info-a {
     font-family: "Khand-Regular", Helvetica;
     color: #000000;
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -167,12 +181,12 @@ i {
 
 .rectangle-2 {
     position: absolute;
-    width: 90%;
-    height: 21rem;
-    bottom: -89rem; /* hay que corregir esto*/
+    width: 50%;
+    height: 31rem;
+    bottom: -74rem; /* hay que corregir esto*/
     left: 50%;
     transform: translateX(-50%);
-    /* background-color: #ffddd2; asi desaparece en móvil*/
+    background-color: #ffddd2;
     z-index: -100;
   }
 
@@ -235,25 +249,60 @@ button {
   margin-left: 60%;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 767px) and (max-width: 1023px)
+{
+  header{
+    width: auto;
+  }
+  .show {
+    display: block !important;
+    font-size: xx-large;
+  }
 
-@media screen and (min-width: 768px) {
-    .rectangle-1 {
-      width: 50%;
-      height: 17rem;
-      top: 10rem;
-      background-color: #ffddd2;
-    }
+  .icons-container {
+    display: none;
+  }
+
+  .section-a{
+    display: flex;
+    flex-direction: column;
+  }
+  .section-b {
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+}
+@media screen and (max-width: 767px) {
+  header{
+    width: auto;
+  }
+  .show {
+    display: block !important;
+    font-size: xx-large;
+  }
+  .icons-container {
+    display: none;
+  }
+  
+  .rectangle-1 {
+  width: 0%;
+  background: none;
+     
+  }
   
     .h1-day {
-      font-size: 6rem;
-      line-height: 1.5;
+      font-size: 4rem;
+      line-height: 1.2;
     }
    
     .section-a {
       margin: 4rem 0;
       padding: 0 4rem;
     }
-
+    .section-b {
+      display: flex;
+      flex-direction: column-reverse;
+    } 
     .image-day {
         width: 18.75rem;
         height: 21.25rem;
@@ -266,6 +315,7 @@ button {
         font-size: 24px;
         letter-spacing: 0;
         line-height: normal;
+        width: 50%;
     
     }
 
@@ -273,17 +323,10 @@ button {
         font-size: 22px;
     }
 
-    .button-add {
-      width: 18.375rem;
-      height: 3.063rem;
-      font-size: 2rem;
-      border-radius: 1.563rem;
-    }
+
   
     .rectangle-2 {
-        width: 50%;
-        height: 31rem;
-        bottom: -74rem;
-        background-color: #ffddd2;
+    width: 0%;
+    background: none;
     }
   }
