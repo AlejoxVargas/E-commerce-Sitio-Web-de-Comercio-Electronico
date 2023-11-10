@@ -91,6 +91,10 @@ i {
     font-size: 1.6rem;
     margin-left: 30px;
 }
+.show {
+    display: none !important;
+   
+  }
 
 .container {
     background-color: #EDF6F9;
