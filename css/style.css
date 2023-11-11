@@ -116,6 +116,12 @@ i {
     flex: 0.5;
 }
 
+/* .first-text-container i{
+    font-size:500%;
+    margin-top: 40%;
+    margin-right: 40%;
+} */
+
 .video-container {
     max-width: 320px;
     transition: max-width 1s, padding 1s, margin 1s;
@@ -562,7 +568,7 @@ button {
 {
     .social-media-icons {
         font-size: 2em;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-bottom: 10px;
     }
 }
