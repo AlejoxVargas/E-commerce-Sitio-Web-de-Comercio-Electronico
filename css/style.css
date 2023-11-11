@@ -36,7 +36,7 @@ nav a {
     color: #fff;
     /* Color del texto de los enlaces */
     font-size: 1.7rem;
-    /* Tamaño fuente */
+    /* TamaÃ±o fuente */
     font-weight: bolder;
     /*Grosor de la fuente (Negrita, etc)*/
 }
@@ -69,7 +69,7 @@ h1 {
 
 .logo {
     width: 6rem;
-    /* Ajusta el tamaño del logotipo según tus necesidades */
+    /* Ajusta el tamaÃ±o del logotipo segÃºn tus necesidades */
     height: auto;
     color: white;
     font-size: 5rem;
@@ -84,17 +84,13 @@ i {
     flex: 1;
     /* Toma la tercera parte del espacio disponible */
     text-align: center;
-    /* Alinea los íconos a la derecha */
+    /* Alinea los Ã­conos a la derecha */
 }
 
 .icons {
     font-size: 1.6rem;
     margin-left: 30px;
 }
-.show {
-    display: none !important;
-   
-  }
 
 .container {
     background-color: #EDF6F9;
@@ -125,7 +121,7 @@ i {
     transition: max-width 1s, padding 1s, margin 1s;
     background:#E29578;
     padding: 0px;
-    /* Cambia el color para resaltar el área */
+    /* Cambia el color para resaltar el Ã¡rea */
     flex: 2;
 }
 
@@ -133,14 +129,14 @@ i {
     width: 500px;
     height: 600px;
 }
-/* FULLSCREEN clase añadida POSTERIORMENTE por medio de JS */
+/* FULLSCREEN clase aÃ±adida POSTERIORMENTE por medio de JS */
 .video-container.fullscreen {
     padding: 0;
     margin: 0;
     background:#E29578;
     max-width: 60em;
     height: 30em ;
-    /* Tamaño del video al hacer clic en él (el doble del tamaño inicial) */
+    /* TamaÃ±o del video al hacer clic en Ã©l (el doble del tamaÃ±o inicial) */
     cursor: pointer;
     transition: max-width 1s, padding 1s, margin 1s;
     /* Agregamos transiciones para max-width, padding y margin */
@@ -164,7 +160,7 @@ video.play-video {
 } 
 /*---------------------- Estilos texto derecha --------------------------- */
 .right-text-container {
-    /* Cambia el color para resaltar el área */
+    /* Cambia el color para resaltar el Ã¡rea */
     background: rgba(131, 197, 190, 0.1);
     display: flex;
     flex-direction: column;
@@ -184,7 +180,7 @@ video.play-video {
     background:#E29578;
     padding: 8px;
     font-size: 2.8em;
-    /* Cambia el color para resaltar el área */
+    /* Cambia el color para resaltar el Ã¡rea */
 }
 
 .logo-animation {
@@ -197,14 +193,14 @@ video.play-video {
     /* Alinea la imagen en el centro vertical */
     /* Alinea la imagen a la derecha */
     transition: transform 0.7s ease-in-out;
-    /* Agrega una transición de salida para la propiedad 'transform' */
+    /* Agrega una transiciÃ³n de salida para la propiedad 'transform' */
     transform: translateX(100%);
-    /* Inicialmente, la imagen está fuera de la vista (derecha) */
+    /* Inicialmente, la imagen estÃ¡ fuera de la vista (derecha) */
 }
 
 /* Estilo para mostrar la imagen */
 .logo-animation.show {
-    transform: translateX(0); /* La imagen se desplaza desde la derecha hacia su posición original */
+    transform: translateX(0); /* La imagen se desplaza desde la derecha hacia su posiciÃ³n original */
    
 }
 
@@ -219,49 +215,49 @@ video.play-video {
 
 .horizontal-line {
     display: block;
-    /* Hace que las líneas aparezcan en línea horizontal */
+    /* Hace que las lÃ­neas aparezcan en lÃ­nea horizontal */
     height: 7px;
-    /* Altura de las líneas horizontales */
+    /* Altura de las lÃ­neas horizontales */
     background-color: black;
-    /* Color de las líneas (puedes ajustarlo según tus preferencias) */
+    /* Color de las lÃ­neas (puedes ajustarlo segÃºn tus preferencias) */
     margin-bottom: 16px;
-    /* Espacio entre las líneas */
+    /* Espacio entre las lÃ­neas */
     border-top-right-radius: 10px;
     /* Redondea el borde superior derecho */
     border-bottom-right-radius: 10px;
     /* Redondea el borde inferior derecho */
     transform-origin: left;
-    /* Establece el origen de transformación a la izquierda */
+    /* Establece el origen de transformaciÃ³n a la izquierda */
     transform: scaleX(0);
-    /* Inicialmente, las líneas están completamente ocultas */
+    /* Inicialmente, las lÃ­neas estÃ¡n completamente ocultas */
     transition: transform 2s ease-in-out;
-    /* Agrega una transición para la transformación */
+    /* Agrega una transiciÃ³n para la transformaciÃ³n */
 
 }
 
 
 .animate-lines .horizontal-line {
     transform: scaleX(1);
-    /* Muestra completamente las líneas */
+    /* Muestra completamente las lÃ­neas */
 }
 
 .line1 {
     background: #E29578;
     margin-top: 16px;
     width: 1052px;
-    /* Longitud de la primera línea */
+    /* Longitud de la primera lÃ­nea */
 }
 
 .line2 {
     background: #006D77;
     width: 984px;
-    /* Longitud de la segunda línea */
+    /* Longitud de la segunda lÃ­nea */
 }
 
 .line3 {
     background: #E29578;
     width: 795px;
-    /* Longitud de la tercera línea */
+    /* Longitud de la tercera lÃ­nea */
 }
 /* ------------------ Estilos Slider ------------------- */
 .slider {
