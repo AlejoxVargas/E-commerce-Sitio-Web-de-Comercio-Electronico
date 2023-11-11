@@ -21,17 +21,17 @@ header {
     justify-content: space-between;
     position: relative;
     height: 8.2rem;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     /* Espaciado interno entre elementos */
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     /* Elimina el subrayado de los enlaces */
     color: #fff;
@@ -40,9 +40,9 @@ header {
     /* Tamaño fuente */
     font-weight: bolder;
     /*Grosor de la fuente (Negrita, etc)*/
-  }
-  
-  ul {
+}
+
+ul {
     justify-content: center;
     list-style: none;
     display: flex;
@@ -52,58 +52,59 @@ header {
     /* Toma la parte central del espacio disponible */
     align-items: center;
     /* Alinea verticalmente los elementos de texto con el contenido del primer li (imagen) */
-  }
-  
-  li {
+}
+
+li {
     margin: 0;
     padding: 0;
-  }
-  
-  .title-container {
+}
+
+.title-container {
     flex: 3;
     /* Toma la primera parte del espacio disponible */
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 3.2rem;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 6rem;
     /* Ajusta el tamaño del logotipo según tus necesidades */
     height: auto;
     color: white;
     font-size: 5rem;
-  }
-  
-  i {
+}
+
+i {
     color: white;
     z-index: 2;
-  }
-  
-  .icons-container {
+}
+
+.icons-container {
     flex: 3;
     /* Toma la tercera parte del espacio disponible */
     text-align: center;
     /* Alinea los íconos a la derecha */
-  }
-  
-  .show {
+}
+
+.show {
     display: none;
-  }
-  
-  .icons {
+}
+
+.icons {
     font-size: 1.6rem;
     margin-left: 30px;
-  }
-  
-  /*Cierre de Header*/
-  
-  main{
+}
+
+/*Cierre de Header*/
+
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+
 /*
 .container div{
     background: lightblue ;
@@ -121,9 +122,10 @@ section {
 }
 
 .seccion2 {
-    display:flex;
+    display: flex;
 }
-.imagen{
+
+.imagen {
     display: block;
     width: 100%;
 }
@@ -131,7 +133,8 @@ section {
 .img1 {
     width: 100%;
 }
-.texto1{
+
+.texto1 {
     width: 580px;
     flex-shrink: 0;
     font-size: 22px;
@@ -148,7 +151,7 @@ h2 {
     margin-top: -30px;
 }
 
-.texto2{
+.texto2 {
     width: 400px;
     flex-shrink: 0;
     font-size: 22px;
@@ -156,13 +159,13 @@ h2 {
     margin-left: 40px;
 }
 
-.imagen2{
+.imagen2 {
     margin-left: 80px;
     margin-right: 0px;
     float: right;
 }
 
-.texto3{ 
+.texto3 {
     width: 400px;
     flex-shrink: 0;
     font-size: 22px;
@@ -171,14 +174,14 @@ h2 {
 
 
 }
-.imagen3{
+
+.imagen3 {
     margin-left: -250px;
     padding: 150px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
 }
-
 
 /* ----------------- FOOTER ----------------- */
 footer {
@@ -188,14 +191,14 @@ footer {
     align-items: flex-start;
     background: #006D77;
 }
-  
+
 .left-div {
     width: 40%;
     font-size: large;
     color: #fff;
     padding: 50px;
 }
-  
+
 .right-div {
     display: flex;
     width: 60%;
@@ -206,7 +209,7 @@ footer {
 .input-container {
     margin-bottom: 10px;
     padding: 10px;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: bolder;
     margin: 50px;
 }
@@ -235,62 +238,86 @@ button {
     margin-bottom: 30px;
 }
 
-@media only screen and (max-width:1023px)  {
-    *{
-        margin: 0px;
-        padding: 0px;
-        width:100%;
-
+@media only screen and (max-width:1023px) {
+    header {
+        width: auto;
     }
+
     /* Header */
     .show {
-    display: block;
-    font-size: xx-large;
+        display: block;
+        font-size: xx-large;
     }
 
     .icons-container {
-    display: none;
+        display: none;
     }
 
-    main{
-        width:100%;
+    main {
+        width: 100%;
         padding: 0px;
         margin: 0px;
     }
-    section{
+
+    section {
         width: 100%;
         display: flex;
-       flex-direction: column;
+        flex-direction: column;
     }
-    .seccion2{
+
+    .seccion2 {
         display: flex;
         flex-direction: column-reverse;
     }
+
     section p {
         width: 100%;
     }
-  
-    .texto1{
+
+    .texto1 {
         width: 70%;
         padding: 35px;
     }
-    .texto2{
+
+    .texto2 {
         width: 70%;
         padding: 35px;
-    
+
     }
-    .texto3{
+
+    .texto3 {
         width: 70%;
         padding: 60px;
         margin-top: 5px;
     }
-    .imagen{
+
+    .imagen {
         padding: 0px;
         margin: 0px;
     }
+
+    ul {
+        display: none;
+    }
+
+    .logo-container {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
     /*FOOTER*/
-    
-  }
+    .social-media-icons {
+        font-size: 2em;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .left-div p {
+        font-size: 1rem;
+    }
+}
+
 /* 
   @media only screen and (max-width: 767px) {
    

@@ -259,17 +259,48 @@ footer button {
     margin-left: 60%;
     margin-bottom: 30px;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/*-------------------- RESPONSIVE ---------------------*/
+@media screen and (max-width: 1024px) {
+   /*HEADER*/
     header{
         width: auto;
       }
+      .show {
+        display: block !important;
+        font-size: xx-large;
+      }
+    
+      .icons-container {
+        display: none;
+      }
+    
+      ul {
+        display: none;
+      }
+    
+      .logo-container {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 50px;
+      }
+       /*FORM*/
+       .form-container {
+        width: 100%;
+        margin: 0 auto;
+       }
+      
+       /*FOOTER*/
+      .social-media-icons {
+        font-size: 2em;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .left-div p {
+      font-size: 1rem;
+    }
   }
   
-@media screen and (max-width: 768px) {
-    /* Estilos para pantallas con un ancho máximo de 768px */
-    /* Aquí puedes agregar los estilos que deseas aplicar en pantallas más pequeñas */
-  }
+
   
  
  

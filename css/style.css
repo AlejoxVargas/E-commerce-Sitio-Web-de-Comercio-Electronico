@@ -181,7 +181,7 @@ video.play-video {
 .right-text {
     background: #E29578;
     padding: 8px;
-    font-size: 2.8em;
+    font-size: 3em;
     /* Cambia el color para resaltar el Ã¡rea */
 }
 
@@ -556,4 +556,13 @@ button {
     font-size: 3em;
     margin-left: 60%;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1023px)
+{
+    .social-media-icons {
+        font-size: 2em;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
 }
