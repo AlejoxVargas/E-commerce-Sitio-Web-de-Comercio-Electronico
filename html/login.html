@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Khand" />
     <title>Forulario-Registro</title>
     <script src="https://kit.fontawesome.com/60be6c00de.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <title>Ecommerce Skin Care</title>
 </head>
 <body>
@@ -36,6 +37,21 @@
             </div>
             <div class="show">
                 <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="hidden-container">
+                <ul class="hidden-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./day-care.html">Para el día</a></li>
+                    <li><a href="./night-care.html">Para la noche</a></li>
+                    <li><a href="./car.html">Tu carro de compra</a></li>
+                    <!-- <li><a href="#">Inicia sesión</a></li> -->
+                    <li><a href="./singup-form.html">Regístrate</a></li>
+                    <li><a href="./about-us.html">Nosotros</a></li>
+                    <li><a href="../html/about-us.html#contact-input">Contacto</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -91,7 +107,23 @@
             </div>
         </div>
     </footer>
-    <script src="../scripts/script.js"></script>
+      <!-- SCRIPT PARA BOTON HAMBURGUESA -->
+      <script>
+        $(document).ready(function() {
+            $(".show").on("click", function(event) {
+                $(".hidden-list").toggle();
+                event.stopPropagation(); // Evita que el clic se propague al documento
+            });
+        
+        $(document).on("click", function(event) {
+            if (!$(event.target).closest('.show').length && !$(event.target).hasClass('hidden-list')) {
+                $(".hidden-list").hide();
+            }
+        });
+        });
+        
+    </script>    
+    <!-- FINAL SCRIPT PARA BOTON HAMBURGUESA -->
 </body>
 
 </html>

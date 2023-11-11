@@ -69,11 +69,14 @@ h1 {
 
 .logo {
     width: 6rem;
-    /* Ajusta el tamaÃ±o del logotipo segÃºn tus necesidades */
+    /* Ajusta el tamagno del logotipo segÃºn tus necesidades */
     height: auto;
     color: white;
     font-size: 5rem;
 }
+.show {
+    display: none;
+  }
 
 i {
     color: white;
@@ -84,7 +87,7 @@ i {
     flex: 1;
     /* Toma la tercera parte del espacio disponible */
     text-align: center;
-    /* Alinea los Ã­conos a la derecha */
+    /* Alinea los i­conos a la derecha */
 }
 
 .icons {
@@ -127,7 +130,7 @@ i {
     transition: max-width 1s, padding 1s, margin 1s;
     background: #E29578;
     padding: 0px;
-    /* Cambia el color para resaltar el Ã¡rea */
+    /* Cambia el color para resaltar el area */
     flex: 2;
 }
 
@@ -307,6 +310,7 @@ video.play-video {
     align-items: center;
     padding: 10px 20px;
     box-sizing: border-box;
+    background-color: #E29578;
 }
 
 .type {
@@ -508,9 +512,72 @@ video.play-video {
 }
 
 
+/* ----------------- ESTILOS MENU HAMBURGUESA ----------------- */
+.hidden-container {
+    position: relative;
+}
+
+.hidden-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 109, 119, 0.9); /* Fondo semi-transparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 999; /* Ajusta el índice z para asegurarte de que esté por encima de otros elementos */
+}
+
+.hidden-list li {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente en un 50% */
+    font-weight: bold; /* Aumenta el grosor de la fuente */
+    position: relative;
+    color: #fff; /* Color del texto */
+}
+
+.hidden-list li:hover {
+    background: linear-gradient(to bottom, rgba(226, 149, 120, 0.9), rgba(226, 149, 120, 0.6));
+}
+
+.hidden-list li::before,
+.hidden-list li::after {
+    content: "";
+    position: absolute;
+    height: 5px; /* Grosor de las líneas de sombra */
+    background-color: rgba(226, 149, 120, 0.5); /* Color semi-transparente basado en #e29578 para las sombras chulas */
+    width: calc(100% + 40px); /* Ancho ajustado para extenderse más allá del contenido del li */
+    left: -20px; /* Desplaza a la izquierda la mitad del ancho adicional */
+}
+
+.hidden-list li::before {
+    top: 0;
+}
+
+.hidden-list li::after {
+    bottom: 0;
+}
+
+.show:hover {
+    cursor: pointer;
+    background-color: #83C5BE;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* ----------------- FINAL ESTILOS MENU HAMBURGUESA ----------------- */
+
 
 
 /* ----------------- FOOTER ----------------- */
+
+
 footer {
     height: auto;
     display: flex;
@@ -564,11 +631,39 @@ button {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1023px)
-{
-    .social-media-icons {
-        font-size: 2em;
-        margin-left: 10px;
-        margin-bottom: 10px;
+
+@media screen and (max-width: 1024px) {
+
+    /*HEADER*/
+    header {
+      width: auto;
     }
+  
+    .show {
+      display: block !important;
+      font-size: xx-large;
+    }
+  
+    .icons-container {
+      display: none;
+    }
+  
+    ul {
+      display: none;
+    }
+  
+    .logo-container {
+      position: absolute;
+      margin-left: 10px;
+      margin-top: 50px;
+    }
+      /*FOOTER*/
+  .social-media-icons {
+    font-size: 2em;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .left-div p {
+    font-size: 1rem;
+  }
 }

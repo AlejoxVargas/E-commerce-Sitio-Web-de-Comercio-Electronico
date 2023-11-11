@@ -21,26 +21,44 @@
             <div class="title-container">
                 <h1>LotoCare</h1>
             </div>
-            <ul>
-                <li> <a href="index.html"><img src="./media/logo-g.png" alt="Logo de Lotus Care" class="logo"></a></li>
-                <li><a href="./html/day-care.html">Productos de día</a></li>
-                <li><a href="./html/night-care.html">Productos de noche</a></li>
-                <li><a href="./html/about-us.html">Nosotros</a></li>
-            </ul>
+            <div class="logo-container">
+                <a href="../index.html"><img src="../media/logo-g.png" alt="Logo de Lotus Care" class="logo"></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="./html/day-care.html">Productos de día</a></li>
+                    <li><a href="./html/night-care.html">Productos de noche</a></li>
+                    <li><a href="./html/about-us.html">Nosotros</a></li>
+                </ul>
+            </div>
             <div class="icons-container">
                 <i class="fa-solid fa-magnifying-glass icons"></i>
                 <a href="./html/login.html"><i class="fas fa-user icons"></i></a>
                 <a href="./html/car.html"> <i class="fa-solid fa-cart-shopping icons"></i></a>
             </div>
+            <div class="show">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="hidden-container">
+                <ul class="hidden-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./html/day-care.html">Para el día</a></li>
+                    <li><a href="./html/night-care.html">Para la noche</a></li>
+                    <li><a href="./html/car.html">Tu carro de compra</a></li>
+                    <li><a href="./html/login.html">Inicia sesión</a></li>
+                    <li><a href="./html/singup-form.html">Regístrate</a></li>
+                    <li><a href="./html/about-us.html">Nosotros</a></li>
+                    <li><a href="./html/about-us.html#contact-input">Contacto</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>  
+                </ul>
+            </div>
         </nav>
-        <div>
-            <i class="fa-solid fa-bars show"></i>
-        </div>
     </header>
    <main class="container">
         <section class="first-section">
             <div class="first-text-container">
-                <!-- <i class="fas fa-play"></i> -->
+       
             </div>
             <div class="video-container">
                 <img src="./media/intro-img.jpg" alt="Imagen Loto Care" id="start-image" class="video-image">
@@ -245,5 +263,23 @@
         </div>
     </footer>
     <script src="./scripts/script.js"></script>
+
+    <!-- SCRIPT PARA BOTON HAMBURGUESA -->
+    <script>
+    $(document).ready(function() {
+        $(".show").on("click", function(event) {
+            $(".hidden-list").toggle();
+            event.stopPropagation(); // Evita que el clic se propague al documento
+        });
+    
+    $(document).on("click", function(event) {
+        if (!$(event.target).closest('.show').length && !$(event.target).hasClass('hidden-list')) {
+            $(".hidden-list").hide();
+        }
+    });
+    });
+    
+</script>    
+<!-- FINAL SCRIPT PARA BOTON HAMBURGUESA -->
 </body>
 </html>
