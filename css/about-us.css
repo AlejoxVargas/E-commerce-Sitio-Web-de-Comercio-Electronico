@@ -120,14 +120,19 @@ section {
     flex-direction: row;
 }
 
-
+.seccion2 {
+    display:flex;
+}
 .imagen{
     display: block;
     width: 100%;
 }
 
+.img1 {
+    width: 100%;
+}
 .texto1{
-    width: 380px;
+    width: 580px;
     flex-shrink: 0;
     font-size: 22px;
     font-weight: 400;
@@ -153,6 +158,8 @@ h2 {
 
 .imagen2{
     margin-left: 80px;
+    margin-right: 0px;
+    float: right;
 }
 
 .texto3{ 
@@ -228,7 +235,7 @@ button {
     margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 767px) and (max-width:1023px)  {
+@media only screen and (max-width:1023px)  {
     *{
         margin: 0px;
         padding: 0px;
@@ -284,9 +291,9 @@ button {
     /*FOOTER*/
     
   }
-
+/* 
   @media only screen and (max-width: 767px) {
-    /* Header */
+   
     .show {
         display: block;
         font-size: xx-large;
@@ -297,7 +304,7 @@ button {
         }
 
     main{
-        background-color: red;
+        
     }
   
-  }
+  } */

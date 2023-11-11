@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;700&display=swap');
 
 * {
     padding: 0px;
@@ -105,6 +104,18 @@ body {
     background-color: #e5e5f7;
 
 }
+main {
+  background-image: url(../media/flores-loto.jpeg)!important;
+  background-size: cover;
+  height: 100vh;
+  color: black;
+  /*opacity: 0.9;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 8px), repeating-linear-gradient(#005b7855, #005b78);
+  ;*/
+  /* fondo con forma de gota de agua*/
+  display: flex;
+  min-height: 100vh;
+}
 
 
 
@@ -192,19 +203,6 @@ p {
 .form-link {
     font-weight: 400;
     color: blue;
-}
-
-main {
-    background-image: url(./media/floresloto.jpeg);
-    background-size: cover;
-    height: 100vh;
-    color: black;
-    /*opacity: 0.9;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 8px), repeating-linear-gradient(#005b7855, #005b78);
-    ;*/
-    /* fondo con forma de gota de agua*/
-    display: flex;
-    min-height: 100vh;
 }
 
 

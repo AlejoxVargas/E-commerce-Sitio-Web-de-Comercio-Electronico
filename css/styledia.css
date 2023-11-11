@@ -132,8 +132,6 @@ i {
     flex-direction: row;
   }
   
-  
-
 .align-figure{
     display: flex;
     flex-direction: column;
@@ -263,10 +261,20 @@ button {
     display: none;
   }
 
+  ul{
+     display: none;
+  }
+
+  .logo-container{
+    position: absolute;
+    margin-left: 10px;
+  }
+
   .section-a{
     display: flex;
     flex-direction: column;
   }
+
   .section-b {
     display: flex;
     flex-direction: column-reverse;
@@ -324,10 +332,18 @@ button {
         font-size: 22px;
     }
 
-
-  
     .rectangle-2 {
     width: 0%;
     background: none;
     }
+
+    ul{
+      display: none;
+   }
+   .logo-container{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
   }
+  }
+

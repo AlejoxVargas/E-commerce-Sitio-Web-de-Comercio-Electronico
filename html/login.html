@@ -4,32 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shotcut icon" href="../media/logo-pestaña.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Khand" />
     <title>Forulario-Registro</title>
     <script src="https://kit.fontawesome.com/60be6c00de.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Khand" />
     <title>Ecommerce Skin Care</title>
 </head>
-
 <body>
-
     <header>
         <nav>
             <div class="title-container">
-                <a href="index.html">
+                <a href="../index.html">
                     <h1>LotoCare</h1>
                 </a>
             </div>
             <ul>
-                <li> <a href="index.html"><img src="./media/logoG.png" alt="Logo de Lotus Care" class="logo"></a></li>
-                <li><a href="./rutinadedia.html">Productos de día</a></li>
-                <li><a href="./rutinadenoche.html">Productos de noche</a></li>
-                <li><a href="./aboutUs.html">Nosotros</a></li>
+                <li> <a href="../index.html"><img src="../media/logo-g.png" alt="Logo de Lotus Care" class="logo"></a></li>
+                <li><a href="./day-care.html">Productos de día</a></li>
+                <li><a href="./night-care.html">Productos de noche</a></li>
+                <li><a href="./about-us.html">Nosotros</a></li>
             </ul>
             <div class="icons-container">
                 <i class="fa-solid fa-magnifying-glass icons"></i>
-                <i class="fas fa-user icons"></i>
-               <a href="./Carrito.html"> <i class="fa-solid fa-cart-shopping icons"></i></a>
+                <a href="./login.html"><i class="fas fa-user icons"></i></a>
+                <a href="./html/car.html"> <i class="fa-solid fa-cart-shopping icons"></i></a>
             </div>
             <div>
                 <i class="fa-solid fa-bars show"></i>
@@ -43,12 +42,9 @@
             <form class="form-group">
                 <h2 class="form-title">Formulario Inicio Sesión</h2>
                 <div class="form-subgroup">
-                    
                     <label>Correo electrónico</label>
                     <input type="email" name="correo" id="correo" placeholder="introduce tu correo electrónico" required="required">
                     <span class="form-line"></span>
-
-
                     <label>Contraseña</label>
                     <input type="password" name="correo" id="contraseña" placeholder="introduce tu contraseña" required="required">
                     <span class="form-line"></span>
@@ -57,9 +53,7 @@
                 <label class="terminos">Estoy de acuerdo con <a href="#">Términos y condiciones</a></label>
                 
                 <div class="cuenta">
-                
-
-                <p class="form-paragraph"><a href="./shoppingCart.html" class="form-link">¿No tienes cuenta?</a></p>
+                <p class="form-paragraph"><a href="../html/singup-form.html" class="form-link">¿No tienes cuenta?</a></p>
                 <input type="submit" class="form-submit" value="Continuar">
             </div>
             </form>
@@ -82,7 +76,7 @@
         <div class="right-div">
             <div class="input-container">
                 <label for="email">Manténgase en contacto para ofertas, noticias y mucho más</label>
-                <input type="email" id="email" placeholder="    Ingrese su correo electrónico">
+                <input type="email" id="contact-input" placeholder="    Ingrese su correo electrónico">
                 <button type="submit">Enviar</button>
             </div>
             <div class="social-media-icons">

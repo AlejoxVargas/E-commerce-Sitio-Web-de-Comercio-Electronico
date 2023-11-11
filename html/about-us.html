@@ -6,30 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LotoCare-Nosotros</title>
   <!--------------- OJO imagen pestaña (modificar) ------------------->
-  <link rel="shotcut icon" href="./media/E-slider-images/logopestaña.png">
+  <link rel="shotcut icon" href="../media/logo-pestaña.png">
   <!------------------------------------------------------------------>
   <script src="https://kit.fontawesome.com/60be6c00de.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./aboutUs.css" />
+  <link rel="stylesheet" href="../css/about-us.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Khand" />
 </head>
 <body>
   <header>
     <nav>
         <div class="title-container">
-            <a href="index.html">
+            <a href="../index.html">
                 <h1>LotoCare</h1>
             </a>
         </div>
         <ul>
-          <li> <a href="index.html"><img src="./media/logoG.png" alt="Logo de Lotus Care" class="logo"></a></li>
-          <li><a href="./rutinadedia.html">Productos de día</a></li>
-          <li><a href="./rutinadenoche.html">Productos de noche</a></li>
-          <li><a href="./aboutUs.html">Nosotros</a></li>
+          <li><a href="../index.html"><img src="../media/logo-g.png" alt="Logo de Lotus Care" class="logo"></a></li>
+          <li><a href="../html/day-care.html">Productos de día</a></li>
+          <li><a href="../html/night-care.html">Productos de noche</a></li>
+          <li><a href="../html/about-us.html#contact-input">Contacto</a></li>
         </ul>
         <div class="icons-container">
             <i class="fa-solid fa-magnifying-glass icons"></i>
-            <i class="fas fa-user icons"></i>
-            <a href="./Carrito.html"> <i class="fa-solid fa-cart-shopping icons"></i></a>
+            <a href="./login.html"><i class="fas fa-user icons"></i></a>
+            <a href="../html/car.html"> <i class="fa-solid fa-cart-shopping icons"></i></a>
 
         </div>
         <div>
@@ -41,7 +41,7 @@
   <main>
     <section class="seccion1">
       <div class="imagen imagen1">
-        <img src="./media/imggoteros.jpg" alt="varios frascos con gotero">
+        <img class="img1" src="../media/goteros.jpg" alt="varios frascos con gotero">
       </div>
       <div class="texto1">
         <h2>¡Conócenos!</h2>
@@ -59,13 +59,13 @@
         </p>
       </div>
       <div class="imagen imagen2">
-        <img src="./media/imgpotesvacios.jpg" alt="potes pequeños de crema vacios con tapa">
+        <img src="../media/potes-vacios.jpg" class="img1" alt="potes pequeños de crema vacios con tapa">
       </div>
     </section>
 
     <section class="seccion3">
       <div class="imagen imagen3">
-        <img src="./media/imgextractos.jpg" alt="algunas hojas, aceites y extractos naturales">
+        <img src="../media/extractos.jpg" class="img1" alt="algunas hojas, aceites y extractos naturales">
       </div>
   
       <div class="texto3">
@@ -84,7 +84,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida felis auctor, ultrices nunc id, aliquet nunc. Sed euismod, nisl a lacinia hendrerit, justo velit aliquam nunc, vitae ultricies velit ex in justo.</p>
     </div>
     <div class="right-div">
-        <div class="input-container">
+        <div class="input-container" id="contact-input">
             <label for="email">Manténgase en contacto para ofertas, noticias y mucho más</label>
             <input type="email" id="email" placeholder="    Ingrese su correo electrónico">
             <button type="submit">Enviar</button>
@@ -97,6 +97,6 @@
         </div>
     </div>
   </footer>
-  <script src="./scripts/script.js"></script>
+  <!-- <script src="./scripts/script.js"></script> -->
 </body>
 </html>
